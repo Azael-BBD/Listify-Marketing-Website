@@ -121,7 +121,7 @@ header {
 
 .image-section img {
   width: 30%;
-  height: 250px;
+  height: 15.625rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.625rem 1.875rem rgba(192, 20, 222, 0.3);
   object-fit: cover;
@@ -269,7 +269,10 @@ header p {
   gap: 2rem;
   max-width: 75rem;
   margin: 0 auto;
+  padding: 0;
+  list-style: none;
 }
+
 
 article {
   background-color: black;
@@ -371,7 +374,7 @@ article p {
   text-align: left;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   gap: 2rem;
 }
 
